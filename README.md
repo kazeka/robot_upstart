@@ -1,3 +1,5 @@
+Added changes needed to work with Zed/T265 recordings.
+
 robot_upstart [![Build Status](https://travis-ci.org/clearpathrobotics/robot_upstart.svg?branch=jade-devel)](https://travis-ci.org/clearpathrobotics/robot_upstart)
 =============
 
