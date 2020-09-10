@@ -38,6 +38,9 @@ echo "<launch>"
 echo "    <!-- Generated from launch files in $path -->"
 for file in $files
 do
-  echo "  <include file=\"$file\" />"
+  echo "  <arg name=\"uuid_in\" />"
+  echo "  <include file=\"$file\">"
+  echo "    <arg name=\"uuid\" value=\"\$(arg uuid_in)\" />"
+  echo "  </include>"
 done
 echo "</launch>"
